@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-color: hsla(0, 0%, 100%, 1);
+    background-image:
+        radial-gradient(at 5% 20%, hsla(0, 100%, 71%, 0.4) 0px, transparent 50%),
+        radial-gradient(at 53% 7%, hsla(40, 100%, 77%, 0.4)0px, transparent 50%),
+        radial-gradient(at 95% 20%, hsla(43, 54%, 38%, 0.4)0px, transparent 50%);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-bg {
+    text-align: center;
+    margin: 30px;
+}
+
+.logo {
+    height: 50px;
+}
+
+form {
+    background-color: rgba(109, 109, 109, 0.24);
+    padding: 40px 80px 80px 80px;
+    border-radius: 20px;
+}
+
+.form-heading,
+.form-heading h3 {
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 40px;
+    color: #F58220;
+}
+
+
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-wrapper input {
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 800;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 15px;
+}
+
+.input-wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    color: black;
+    transform: translateY(-50%);
+    font-weight: 900;
+}
+
+.btn {
+    background-color: #F58220;
+    width: 18rem;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    color: #8b4100;
+    background-color: #ffa95d;
+    box-shadow: -1px 1px 35px 12px rgba(255, 102, 0, 0.52);
+    -webkit-box-shadow: -1px 1px 35px 12px rgba(255, 102, 0, 0.52);
+    -moz-box-shadow: -1px 1px 35px 12px rgba(255, 102, 0, 0.52);
+}
