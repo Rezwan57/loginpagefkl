@@ -72,6 +72,15 @@ form {
     border-radius: 15px;
 }
 
+input[type='password'] {
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.input-wrapper input:focus {
+    outline: none;
+}
+
 .input-wrapper i {
     position: absolute;
     top: 50%;
@@ -82,7 +91,9 @@ form {
 }
 
 .btn {
-    background-color: #F58220;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f55c20;
     border-radius: 15px;
     padding: 10px 70px;
 }
@@ -91,8 +102,6 @@ form {
     color: #8b4100;
     background-color: #ffa95d;
     box-shadow: -1px 1px 35px 12px rgba(255, 102, 0, 0.52);
-    -webkit-box-shadow: -1px 1px 35px 12px rgba(255, 102, 0, 0.52);
-    -moz-box-shadow: -1px 1px 35px 12px rgba(255, 102, 0, 0.52);
 }
 
 
